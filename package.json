@@ -1,0 +1,35 @@
+{
+  "name": "dk-npmjs-components",
+  "version": "1.0.0",
+  "description": "Hero image carousel and mobile-ready nav menu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtKinger/dk-npmjs-components.git"
+  },
+  "keywords": [
+    "dtkinger",
+    "navigation",
+    "menu",
+    "hero",
+    "carousel"
+  ],
+  "author": "dtkinger",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "bugs": {
+    "url": "https://github.com/dtKinger/dk-npmjs-components/issues"
+  },
+  "homepage": "https://github.com/dtKinger/dk-npmjs-components#readme"
+}

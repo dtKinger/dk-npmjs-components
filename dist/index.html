@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="/src/carousel.css">
+  <link rel="stylesheet" href="/src/nav-menu.css">
+  <link rel="stylesheet" href="/src/drop-down-menu.css">
+  <link rel="icon" href="favicon.png">
+  <title>JS Common Components</title>
+</head>
+<body>
+  <header>
+    <div class="menu-left">
+      <ul>
+        <li><a href="#"><img class="logo-hero" src="./images/p4ges-logo.png"></a></li>
+      </ul>
+    </div>
+    <h1>JS Common Components</h1>
+    
+    <div class="menu-right">
+      <div class="hamburger"></div>
+      <nav id="mobile-nav">
+        <ul class="list">
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">600px breakpoint</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="carousel-container">
+      <ul class="carousel-images">
+        <li><img src="./images/aleksandr-popov-1.jpg" alt=""></li>
+        <li><img src="./images/chi-hung-wong-1.jpg" alt=""></li>
+        <li><img src="./images/donny-jiang-1.jpg" alt=""></li>
+        <li><img src="./images/kevin-laminto-1.jpg" alt=""></li>
+      </ul>
+      <div class="carousel-pagination">
+        <span class="previous"><img src="./icons/left-arrow.svg"></span>
+        <span class="next"><img src="./icons/right-arrow.svg"></span>
+      </div>
+    </div>
+    <div class="carousel-btns">
+      <ul class="image-select">
+        <li id="select-img1"><svg class="img-svg select-img1"></svg></li>
+        <li id="select-img2"><svg class="img-svg select-img2"></svg></li>
+        <li id="select-img3"><svg class="img-svg select-img3"></svg></li>
+        <li id="select-img4"><svg class="img-svg select-img4"></svg></li>
+      </ul>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; <a href="https://p4ges.com">p4ges.com</a></p>
+  </footer>
+  <script src="main.js" type="module"></script>
+</body>
+</html>
