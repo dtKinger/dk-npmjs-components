@@ -6,7 +6,6 @@ export function mobileNav () {
   HAMBURGER.addEventListener('click', () => {
     HAMBURGER.classList.toggle('active');
     LIST.classList.toggle('expand');
-
   })
 }
 

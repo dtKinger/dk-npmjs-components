@@ -37,8 +37,8 @@ a:link, a:visited, a:hover, a:active {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  
 }
+
 
 .logo-hero {
   width: 120px;
@@ -107,7 +107,7 @@ a:link, a:visited, a:hover, a:active {
   }
 
   .list {
-    display: none;
+    /* display: none; */
     flex-direction: column;
     position: absolute;
     gap: 6px;
@@ -117,6 +117,11 @@ a:link, a:visited, a:hover, a:active {
     padding: 10px;
     margin: 10px;  
     border-radius: 8px;
+    background-color: transparent;
+
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+    /* transition:  500ms ease-in-out; */
   }
 
 
@@ -124,6 +129,8 @@ a:link, a:visited, a:hover, a:active {
     display: flex;
     color: black;
     background-color: white;
+    transition: background-color 200ms ease-in-out;
+    opacity: 1; /* Make the list visible with opacity 1 */
   }
 
 
